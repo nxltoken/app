@@ -1,0 +1,16 @@
+{
+    "version": 14,
+    "providers": [
+        { "id": "cryptocompare", "url": "https://min-api.cryptocompare.com" },
+        { "id": "coingecko", "url": "https://api.coingecko.com/api/v3" }
+    ],
+
+    "coins": [
+        {
+            "id": "erc20|0x6839ac5ea8082688b706c773d5d2afd7d503fdd4",
+            "code": "nxl",
+            "name": "Next Level Token",
+            "external_id": { "coingecko": "next-level" }
+        }
+    ]
+}
